@@ -56,7 +56,7 @@ const App = () => {
 
   // Fetch default city (London) weather data on initial render
   useEffect(() => {
-    const defaultCity = "London";
+    const defaultCity = "Dhaka";
     const API_URL = `https://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${defaultCity}&days=2`;
     getWeatherDetails(API_URL);
   }, []);
